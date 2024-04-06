@@ -8,7 +8,7 @@ public class ValidadorContra {
     }
 
     public static boolean validarCedula(String cedula){
-        return cedula.matches("^[0-9]-[0-9]{3,4}-[0-9]{4}$");
+        return cedula.matches("^[0-9]-[0-9]{3,4}-[0-9]{1,4}$");
     }
 
     public static boolean validarCorreo(String correo){
